@@ -67,28 +67,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.opener::after{
-  content: 'see more'; 
-  font-size: larger;
-}
-
-.about .show-off .closer{
-  /* line-height: 1.5; */
-  height: 0px;
-  overflow: hidden;
-  transition: .5s;
-}
-
-.about .show-off.active .opener{
-  height: 150px;
-}
-
-.about .show-off.active .closer{
-  content: 'show less';
-  transition: .5s;
-  font-size: 30px;
-}
-
 ul {
   list-style: none;
   padding: 0;
