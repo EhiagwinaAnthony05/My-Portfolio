@@ -25,14 +25,6 @@ toggleBtn.addEventListener('click', function() {
   document.body.classList.toggle('dark-mode');
 });
 
-const about =document.getElementsByClassName('show-off');
-
-for(i = 0; i < about.length; 1++){
-about[i].addEventListener('click', function(){
-  this.classList.toggle('active');
-})
-};
-
 // Optional: Alert when user clicks any project link
 document.querySelectorAll('.project a').forEach(function(link) {
   link.addEventListener('click', function(e) {
